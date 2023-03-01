@@ -13,6 +13,7 @@
 		1ED3908129AF347D002F8845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED3907F29AF347D002F8845 /* Main.storyboard */; };
 		1ED3908329AF347F002F8845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED3908229AF347F002F8845 /* Assets.xcassets */; };
 		1ED3908629AF347F002F8845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED3908429AF347F002F8845 /* LaunchScreen.storyboard */; };
+		1ED3908F29AF3587002F8845 /* MyJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 1ED3908E29AF3587002F8845 /* MyJson.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1ED3908229AF347F002F8845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ED3908529AF347F002F8845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ED3908729AF347F002F8845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ED3908E29AF3587002F8845 /* MyJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MyJson.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		1ED3907829AF347D002F8845 /* ReadEmbeddedJson */ = {
 			isa = PBXGroup;
 			children = (
+				1ED3908D29AF356A002F8845 /* Resources */,
 				1ED3907929AF347D002F8845 /* AppDelegate.swift */,
 				1ED3907B29AF347D002F8845 /* SceneDelegate.swift */,
 				1ED3907D29AF347D002F8845 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				1ED3908729AF347F002F8845 /* Info.plist */,
 			);
 			path = ReadEmbeddedJson;
+			sourceTree = "<group>";
+		};
+		1ED3908D29AF356A002F8845 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1ED3908E29AF3587002F8845 /* MyJson.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 				1ED3908629AF347F002F8845 /* LaunchScreen.storyboard in Resources */,
 				1ED3908329AF347F002F8845 /* Assets.xcassets in Resources */,
 				1ED3908129AF347D002F8845 /* Main.storyboard in Resources */,
+				1ED3908F29AF3587002F8845 /* MyJson.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
